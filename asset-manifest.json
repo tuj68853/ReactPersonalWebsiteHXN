@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactPersonalWebsiteHXN/static/css/main.abd64e84.css",
+    "main.js": "/ReactPersonalWebsiteHXN/static/js/main.68bde3de.js",
+    "static/js/787.5809834d.chunk.js": "/ReactPersonalWebsiteHXN/static/js/787.5809834d.chunk.js",
+    "index.html": "/ReactPersonalWebsiteHXN/index.html",
+    "main.abd64e84.css.map": "/ReactPersonalWebsiteHXN/static/css/main.abd64e84.css.map",
+    "main.68bde3de.js.map": "/ReactPersonalWebsiteHXN/static/js/main.68bde3de.js.map",
+    "787.5809834d.chunk.js.map": "/ReactPersonalWebsiteHXN/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.68bde3de.js"
+  ]
+}
