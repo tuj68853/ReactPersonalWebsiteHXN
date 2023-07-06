@@ -2,7 +2,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Orbitron',
+      primary: 'Orbitron', 
       secondary: 'Rajdhani',
       tertiary: 'Aldrich',
     },
@@ -20,7 +20,7 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0a0a0a',
-        accent: '#B809C3',
+        accent: '#F3491D',
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",

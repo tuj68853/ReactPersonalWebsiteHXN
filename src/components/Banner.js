@@ -24,7 +24,7 @@ const Banner = () => {
               variants={fadeIn('up', 0.3)}
               initial="hidden" whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='text-[55px] font-bold leading-[0.8] 1g: text-[110px]'>
+              className='text-white text-[55px] font-bold leading-[0.8] 1g: text-[110px]'>
               HAI <span>NGUYEN</span>
             </motion.h1>
             <motion.div
@@ -36,7 +36,7 @@ const Banner = () => {
               <span className='text-white mr-4'>I am a</span>
               <TypeAnimation sequence={[
                 'Developer', 2000,
-                'Dreamer', 2000,
+                'Designer', 2000,
                 'Billionaire', 2000,
               ]}
                 speed={50}
