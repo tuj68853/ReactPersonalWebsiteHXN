@@ -1,8 +1,8 @@
 import React from 'react';
 // images
-//import Image from '../assets/avatar.svg';
+import Image from '../assets/avatar.svg';
 //icons
-import { FaGithub, FaYoutube, FaDribbble, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaYoutube, FaDribbble, FaLinkedin, FaInstagram } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -35,7 +35,7 @@ const Banner = () => {
             font-semibold uppercase leading-[1]'>
               <span className='text-white mr-4'>I am a</span>
               <TypeAnimation sequence={[
-                'Developer', 2000,
+                'Front-end Developer', 2000,
                 'Designer', 2000,
                 'Billionaire', 2000,
               ]}
@@ -49,12 +49,10 @@ const Banner = () => {
               variants={fadeIn('up', 0.5)}
               initial="hidden" whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-8 max-w-1g mx-auto 1g: mx-0'
+              className='mb-8 max-w-1g mx-auto 1g: mx-0 fontSize: 50'
+              style={{ fontSize: '40px' }}
             >
-              lorem  lorem lorem lorem
-              lorem lorem lorem
-              lorem lorem lorem lorem
-              lorem lorem lorem lorem.
+              Hi... I'm Hai... Nice to meet ya!
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
@@ -76,9 +74,12 @@ const Banner = () => {
             className='flex text-[20px] gap-x-6 max-w-max mx-auto
             lg:mx-0'>
               <a href="#">
-                <FaYoutube />
+                <FaInstagram />
               </a>
               <a href="#">
+                <FaYoutube />
+              </a>
+              <a href="https://github.com/tuj68853/ReactPersonalWebsiteHXN.git">
                 <FaGithub />
               </a>
               <a href="https://www.linkedin.com/in/hai-xn/">
