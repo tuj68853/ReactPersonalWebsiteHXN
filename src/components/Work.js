@@ -23,8 +23,9 @@ const Work = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>             
-            {/* text */}
+            className='flex-1 flex flex-col gap-y-16 mb-10 lg:mb-0'>
+
+            {/* text  */}
             <div>
               <h2 className='h2 leading-tight text-accent'>
                 My Latest <br />
@@ -35,8 +36,9 @@ const Work = () => {
                 no matter what i tried. What I do i know have no cloue what
                 it si sbut si tu soy y tu. tu y yo.
               </p>
-              <button className='btn btn-sm'>View all projects</button>
+              {/*<button className='btn btn-sm'>View all projects</button>*/}
             </div>
+
             {/* image */}
             <div className='group relative overflow-hidden border-2
             border-white/50 rounded-xl'>
@@ -59,16 +61,25 @@ const Work = () => {
               group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3x1 text-white'>Project Title</span>
               </div>
+              {/* buttons*/}
+              <div className='absolute -bottom-full left-12
+              group-hover:bottom-4 transition-all duration-1000 z-50 flex gap-2'>
+                <button className='btn btn-sm'>Homepage</button> 
+                <button className='btn btn-sm'>GitHub</button>
+              </div>
             </div>
           </motion.div>
+
+
 
           <motion.div
             variants={fadeIn('left', 0.2)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 flex flex-col gap-y-10'>
-            {/*image*/}
+            className='flex-1 flex flex-col gap-y-10 mb-10'>
+
+            {/*image lg:mb-0  */}
             <div className='group relative overflow-hidden border-2 
             border-white/50 rounded-xl'>
               {/* overlay */}
@@ -89,6 +100,12 @@ const Work = () => {
               <div className='absolute -bottom-full left-12
               group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3x1 text-white'>Project Title</span>
+              </div>
+              {/* buttons*/}
+              <div className='absolute -bottom-full left-12
+              group-hover:bottom-4 transition-all duration-1000 z-50 flex gap-2'>
+                <button className='btn btn-sm'>Homepage</button> 
+                <button className='btn btn-sm'>GitHub</button>
               </div>
             </div>
 
@@ -113,6 +130,12 @@ const Work = () => {
               <div className='absolute -bottom-full left-12
               group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3x1 text-white'>Project Title</span>
+              </div>
+              {/* buttons*/}
+              <div className='absolute -bottom-full left-12
+              group-hover:bottom-4 transition-all duration-1000 z-50 flex gap-2'>
+                <button className='btn btn-sm'>Homepage</button> 
+                <button className='btn btn-sm'>GitHub</button>
               </div>
             </div>
           </motion.div>

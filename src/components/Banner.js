@@ -31,7 +31,7 @@ const Banner = () => {
               variants={fadeIn('up', 0.4)}
               initial="hidden" whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-6 text-[36px] lg:text-[60px] font-secondary
+              className='mb-6 text-[20px] lg:text-[40px] font-secondary
             font-semibold uppercase leading-[1]'>
               <span className='text-white mr-4'>I am a</span>
               <TypeAnimation sequence={[
@@ -40,7 +40,7 @@ const Banner = () => {
                 'Billionaire', 2000,
               ]}
                 speed={50}
-                className='text-accent'
+                className='text-gradient'
                 wrapper='span'
                 repeat={Infinity}
               />
