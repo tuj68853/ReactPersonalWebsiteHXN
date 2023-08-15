@@ -3,9 +3,20 @@ import React from 'react';
 import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../variants';
+//emailjs
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_ifwblik', 'template_k81l711', form.current, '9tuFkzesYMgrfhMzb')
+    e.target.reset()
+  };
+
   return (
     <section className='py-16 lg:section' id='contact'>
       <div className='container mx-auto'>
@@ -35,24 +46,33 @@ const Contact = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 border rounded-2x1 flex flex-col gap-y-6 
-          pb-24 p-6 items-start'>
+          pb-24 p-6 items-start'
+            ref={form}
+            onSubmit={sendEmail}>
             <input
               className='bg-transparent border-b py-3 outline-none w-full
               placeholder:text-white focus:border-accent transition-all'
+              name="name"
               type='text'
               placeholder='Your name'
+              required
             />
             <input
               className='bg-transparent border-b py-3 outline-none w-full
               placeholder:text-white focus:border-accent transition-all'
+              name="email"
               type='text'
               placeholder='Your email'
+              required
             />
             <textarea className='bg-transparent border-b py-12 outline-none w-full
               placeholder:text-white focus:border-accent transition-all
               resize-none mb-12'
+              name="message"
               placeholder='Your message'
+              required
             ></textarea>
+
             <button className='btn btn-lg'>Send message</button>
           </motion.form>
         </div>
