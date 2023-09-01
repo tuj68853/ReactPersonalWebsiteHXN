@@ -64,7 +64,7 @@ const Work = () => {
               {/* buttons*/}
               <div className='absolute -bottom-full left-12
               group-hover:bottom-4 transition-all duration-1000 z-50 flex gap-2'>
-                <button className='btn btn-sm'>Homepage</button> 
+                <button className='btn btn-sm'>Demo</button> 
                 <button className='btn btn-sm'>GitHub</button>
               </div>
             </div>
@@ -104,7 +104,7 @@ const Work = () => {
               {/* buttons*/}
               <div className='absolute -bottom-full left-12
               group-hover:bottom-4 transition-all duration-1000 z-50 flex gap-2'>
-                <button className='btn btn-sm'>Homepage</button> 
+                <button className='btn btn-sm'>Demo</button> 
                 <button className='btn btn-sm'>GitHub</button>
               </div>
             </div>
@@ -134,7 +134,7 @@ const Work = () => {
               {/* buttons*/}
               <div className='absolute -bottom-full left-12
               group-hover:bottom-4 transition-all duration-1000 z-50 flex gap-2'>
-                <button className='btn btn-sm'>Homepage</button> 
+                <button className='btn btn-sm'>Demo</button> 
                 <button className='btn btn-sm'>GitHub</button>
               </div>
             </div>
